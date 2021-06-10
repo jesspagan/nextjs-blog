@@ -14,7 +14,10 @@ export default function Layout({
   home?: boolean;
 }) {
   return (
+    <>
+    <nav className={styles.navBar}><a aria-label="Jessica Pagan LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/jessicapagan/"><img alt="LinkedIn Logo" src="/images/linkedin-logo.png" width={18}/></a></nav>
     <div className={styles.container}>
+      
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -68,5 +71,6 @@ export default function Layout({
         </div>
       )}
     </div>
+    </>
   );
 }

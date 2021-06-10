@@ -4,6 +4,12 @@
   margin: 3rem auto 6rem;
 }
 
+.navBar {
+  margin: 24px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .header {
   display: flex;
   flex-direction: column;
